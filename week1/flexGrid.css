@@ -1,0 +1,44 @@
+main{ 
+    color: #255332;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #255332;
+}
+
+.grid-even-columns{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.list-inline-icon{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.Links{
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#links{
+    padding: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+}
+
