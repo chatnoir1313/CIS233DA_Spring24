@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./fonts/Roboto-Black-webfont.woff);
+}
+
+body{
+    margin: auto;
+    size: 10px;
+}
+
+main{ 
+    height: 80vh;
+    height: 100vw;
+    color: rgb(216, 61, 127);
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(./images/Background.jpg);
+}
+
+footer{
+    background-color: tan;
+    color: white;
+    size: 2rem;
+    height: 20vh;
+}
+
+.grid-even-columns{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.list-inline-icon{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.Links{
+    text-decoration: none;
+    display: block;
+    padding-right: 15px;
+}
+
+#links{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(216, 61, 127);
+    font-size: 16pt;
+}
+
