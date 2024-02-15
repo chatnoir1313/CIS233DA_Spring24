@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="buissness website for a bookstore">
+    <meta name="keywords" content="bookstore">
+    <meta name="author" content="Adriana Avila">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilingual Bookstore</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <div id="logo">
+            <img style="height: 10rem; width: auto;" id="logo" src="./images/The Reading Nook - Logo.jpg">
+        </div>
+
+        <div class="center">
+            <p>
+                Row row row your boat gently down the stream. Merrily merrily life is but a dream. 
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="grid-even-columns">
+            <div id="links">
+                <div class="Links"><a href="index.html" >Home</a></div>
+                <div class="Links"><a href="calendar.html">Calendar</a></div>
+            </div>
+
+            <div id="logo_transparent">
+                <!-- responsive image layout for different view ports -->
+                <!-- optimize by starting with the smallest size -->
+                <img  style="height: 8rem; width: auto; place-content: center;"
+                    src="./images/LogoTransparentSmall.png" 
+                    srcset="
+                    ./images/LogoTransparentSmall.png 600w,
+                    ./images/LogoTransparentMedium.png 1040w,
+                    ./images/LogoTransparentLarge.png 2000w"
+                    alt="Bookstore logo with transparent background"
+                /> 
+            </div>
+        </div>  
+    </footer>
+</body>
+</html>
