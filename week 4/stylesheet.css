@@ -1,0 +1,48 @@
+body {
+    size: 10pts;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    size: 20 pts;
+}
+
+li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    size: 20 pts;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+  
+a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 255, 0.821);
+    color: white;
+}
+
+main {
+    clear: both;
+}
+
+.button {
+    padding: 2 rem;
+}
