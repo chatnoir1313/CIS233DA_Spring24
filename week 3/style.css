@@ -3,6 +3,18 @@
     src: url(./fonts/Roboto-Black-webfont.woff);
 }
 
+@media screen and (max-width: 500px) {
+    main{
+        background-image: url(./images/Background_500.png);
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+    main{
+        background-image: url(./images/Background\ -\ 1000.png);
+    }
+}
+
 body{
     margin: auto;
     size: 10px;
