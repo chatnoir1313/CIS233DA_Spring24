@@ -54,6 +54,9 @@ div {
     top: 610px;
     left: 900px;
 }
+#launchSound{
+    display: none;
+}
 #mode {
     top: 490px;
     left: 967px;
@@ -74,7 +77,9 @@ div {
 #time {
     top: 560px;
 }
-
+#sputterSound{
+    display: none;
+}
 #start {
     top: 750px;
     left: 970px;

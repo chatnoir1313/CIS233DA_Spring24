@@ -7,8 +7,8 @@ let traction= 1;
 
 let battery= 0;
 
-let parkingBreak = 1;
-
+let parkingBrake = 1;
+ 
 intStatus = 0
 
 const modeInd = document.getElementById('mode');
@@ -33,12 +33,10 @@ function getGas(){
 
 function tractionOff(){
     if(traction == 0){
-        // button is "on" & traction is on
         traction= 1;
         document.getElementById('trac').src='./assets/images/trac0.PNG';
         document.getElementById('bttn_trac').src = './assets/images/bttn_trac_1.PNG';
     }
-    // button is "off" and traction light is "on" - traction itself is "off"
     else{
        traction= 0; 
        document.getElementById('trac').src = './assets/images/trac1.PNG';
@@ -59,16 +57,15 @@ function chargeBattery(){
 }
 
 function parkingBrakeOff(){
-    // alert("On your mark.")
-    if(parkingBreak == 0){
-        parkingBreak= 1;
-        document.getElementById('brake').src = './assets/images/p1.PNG';
-        document.getElementById('bttn_park').src = './assets/images/bttn_park_1.PNG';
+    if(parkingBrake == 0){
+        parkingBrake= 1;
+        document.getElementById('brake').src='./assets/images/p1.PNG'
+        document.getElementById('bttn_park').src='./assets/images/bttn_park_1.PNG';  
     } 
     else{
-       parkingBreak= 0; 
-       document.getElementById('brake').src='./assets/images/p0.PNG'
-       document.getElementById('bttn_park').src='./assets/images/bttn_park_0.PNG';
+        parkingBrake= 0; 
+        document.getElementById('brake').src = './assets/images/p0.PNG';
+        document.getElementById('bttn_park').src = './assets/images/bttn_park_0.PNG';
     }
 }
 
