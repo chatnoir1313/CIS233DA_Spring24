@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Webpage</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/BrandPackage_AvilaAdriana-assets/ElementalForecast.png.png" alt="Elemental Forecast brand name curved over a cloud and lightning logo" style="height: 10rem; width: auto;">
+    </header>
+
+    <nav>
+        <a href="#" class="city-icon" onclick="toggleCityList()">
+            <img src="./assets/Icons - High Res/IconDesign_AvilaAdriana_Location.png" alt="City Icon" style="height: 4rem; width: auto;">
+        </a>
+        <ul class="city-list" id="cityList">
+            <li onclick="getWeather('Chicago')">Chicago</li>
+            <li onclick="getWeather('Santiago')">Santiago</li>
+            <li onclick="getWeather('Cairo')">Cairo</li>
+            <li onclick="getWeather('Johannesburg')">Johannesburg</li>
+            <li onclick="getWeather('Kyoto')">Kyoto</li>
+        </ul>
+    </nav>
+
+    <main class="grid-container">
+        <!-- Weather information section -->
+        <section id="weatherInfo">
+            <!-- Weather information for the selected city will be displayed here -->
+        </section>
+
+        <!-- Additional sections within the grid layout -->
+        <section id="section1">
+            <h2>Section 1</h2>
+            <div id="cityImagesContainer"></div>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2</h2>
+            <ul id="cityFacts"></ul>
+        </section>
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

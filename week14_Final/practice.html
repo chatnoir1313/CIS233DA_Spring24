@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/BrandPackage_AvilaAdriana-assets/ElementalForecast.png.png" alt="Elemental Forecast brand name curved over a cloud and lightning logo">
+    </header>
+
+    <nav>
+        <a href="#" class="city-icon" onclick="toggleCityList()">
+            <img src="./assets/Icons - Low Res/IconDesign_AvilaAdriana_Location.png">
+        </a>
+
+        <ul>
+            <li onclick="nextDestination('Chicago')">Chicago</li>
+            <li onclick="nextDestination('Santiago')">Santiago</li>
+            <li onclick="nextDestination('Cairo')">Cairo</li>
+            <li onclick="nextDestination('Johannesburg')">Johannesburg</li>
+            <li onclick="nextDestination('Kyoto')">Kyoto</li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <div id="tokyoText">Tokyo</div>
+        <div id="seattleText">Seattle</div>
+        <div id="chicagoText">Chicago</div>
+        <div id="londonText">London</div>
+        <div id="veniceText">Venice</div>
+
+        <table>
+            <tr>
+                <td><img src="">Tokyo Skyline</td>
+                <td><img src="">History</td>
+                <td><img src="">Food</td>
+                <td><img src="">Nature</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+<img src="./assets/Chicago/History_HighRes.jpg">
+
+<script src="script.js"></script>
+</html>

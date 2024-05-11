@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Montserrat/static/Montserrat-Regular.ttf);
+    src: url(./assets/Montserrat/static/Montserrat-Medium.ttf);
+    src: url(./assets/Montserrat/static/Montserrat-Italic.ttf);
+    src: url(./assets/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+body {
+    background-color: #e7eded;
+}
+/* CSS styles for main content using grid layout with rows only */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-auto-rows: auto; /* Auto-sized rows */
+    gap: 20px; /* Gap between grid items */
+    
+    /* Center the grid horizontally and vertically */
+    justify-items: center;
+    align-items: center;
+}
+
+/* Additional CSS styles for sections */
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+ul li {
+    border: 1px solid #0f0f0f; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Add a grey background color */
+    padding: 12px; /* Add some padding */
+}
+
+#weatherInfo {
+    text-align: center; /* Center align the content */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 600px;
+}
+
+/* Center header and navigation */
+header, nav {
+    text-align: center;
+    width: 100%; /* Ensure header and nav take up full width */
+}
+
+/* #cityImagesContainer img{
+    width: 20%;
+    height: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 5px;
+} */
+
+#cityFacts {
+    text-align: center; /* Center align the content */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 1200px;
+}
